@@ -18,7 +18,7 @@ with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
 
 setup(
     name='ligament-jinja',
-    version='0.0.0.devl',
+    version='0.0.0.dev',
     description='A jinja build task for ligament',
     url='http://github.com/Adjective-Object/ligament_jinja',
     author='Adjective-Object',
@@ -31,11 +31,11 @@ setup(
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
 
-        'License :: OSI Approved :: Apache 2',
+        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 2.7'],
 
     keywords='ligament grunt build automation jinja',
-    install_requires=['ligament>=0.0.0.devl', 'Jinja2>=2.7.3'],
+    install_requires=['ligament>=0.0.0.dev', 'Jinja2>=2.7.3'],
 
     packages=["ligament_jinja"]
 )
